@@ -1,22 +1,124 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>MacSoft Development Studio – Mobile Games</title>
-<meta name="description" content="MacSoft Development Studio builds action and survival games for Android: Hunt for the Pride and Death Arena: Rise of the Warlord.">
-<meta property="og:title" content="MacSoft Development Studio"><meta property="og:description" content="Android action and survival games: Hunt for the Pride and Death Arena."><meta property="og:image" content="https://neofaran.github.io/hunt/feature.png"><link rel="icon" href="hunt/icon.png"><link rel="stylesheet" href="style.css"></head><body>
-<header><div class="wrap"><a class="logo" href="/">MAC<b>SOFT</b> <span style="font-weight:500;color:var(--dim)">Development Studio</span></a>
-<nav><a href="#games">Games</a><a href="#about">About</a><a href="#contact">Contact</a></nav></div></header>
-<main class="wrap">
-<section class="hero"><h1>We build games that <span>hit hard</span>.</h1><p>MacSoft Development Studio makes action, survival and vehicle-combat games for mobile. Real-time 3D, tight controls, one more run.</p></section>
-<h2 id="games" style="margin-top:10px">Our games</h2>
-<div class="grid">
- <article class="card"><div class="art" style="background-image:url(hunt/feature.png)"></div><div class="body"><span class="tag">SURVIVAL · ANDROID</span><h3>Hunt for the Pride</h3>
-  <p>Play a lion cub in a living jungle. Find water and food, hunt prey, avoid dangerous animals and grow strong enough to lead the pride. English and Arabic.</p>
-  <div class="btns"><a class="btn" href="https://play.google.com/store/apps/details?id=com.macsoft.HuntForThePride">Google Play</a><a class="btn ghost" href="hunt/">Game page</a></div></div></article>
- <article class="card"><div class="art" style="background-image:url(deatharena/feature.png)"></div><div class="body"><span class="tag">VEHICLE COMBAT · ANDROID</span><h3>Death Arena: Rise of the Warlord</h3>
-  <p>Arm your car, upgrade it in the garage and survive wave after wave of rival warlords, supply drops and boss fights in a huge desert arena.</p>
-  <div class="btns"><a class="btn" href="https://play.google.com/store/apps/details?id=com.macsoft.DeathArena">Google Play</a><a class="btn ghost" href="deatharena/">Game page</a></div></div></article>
-</div>
-<section class="about" id="about"><h2>About</h2><p>MacSoft Development Studio is an independent game studio. We care about smooth performance on everyday phones, small download sizes and games you can pick up in seconds.</p></section>
-<section class="about" id="contact"><h2>Contact</h2><p>Business, press and support: <a href="mailto:invincibledevelopers2015@gmail.com">invincibledevelopers2015@gmail.com</a></p></section>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Faran Ahmer Khan – Unity developer and simulation engineer | MacSoft Development Studio</title>
+<meta name="description" content="Faran Ahmer Khan is a senior software engineer and Unity developer in Riyadh with 12 years of experience in simulators, VR and mobile games. Home of MacSoft Development Studio.">
+<meta property="og:title" content="Faran Ahmer Khan – Unity developer and simulation engineer">
+<meta property="og:description" content="Real-time 3D simulators, VR and Android games. Hunt for the Pride and Death Arena by MacSoft Development Studio.">
+<meta property="og:image" content="https://neofaran.github.io/hunt/feature.png">
+<meta name="theme-color" content="#070b14">
+<link rel="icon" href="hunt/icon.png">
+<link rel="preload" href="fonts/big-shoulders-display-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/portfolio.css">
+</head>
+<body>
+<header class="bar" id="bar">
+  <a class="logo" href="#top">MacSoft <small>Development Studio</small></a>
+  <nav aria-label="Sections">
+    <a href="#games">Games</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero" id="hero">
+    <canvas id="scope" aria-hidden="true"></canvas>
+    <div class="hero-copy">
+      <p class="where">Senior software engineer and Unity developer in Riyadh, Saudi Arabia</p>
+      <h1 aria-label="Faran Ahmer Khan"><span><b>Faran</b></span><span><b>Ahmer</b></span><span><b>Khan</b></span></h1>
+      <p class="lede">I build real-time 3D simulators, VR experiences and mobile games. My work ranges from a Cougar helicopter simulator for Rheinmetall Arabia Simulation and Training to Android games published under MacSoft Development Studio.</p>
+      <div class="cta">
+        <a class="btn main" href="#games">See the games</a>
+        <a class="btn" href="#experience">Read my experience</a>
+      </div>
+      <ul class="readouts">
+        <li><span>Experience</span><strong>12 years</strong></li>
+        <li><span>Engine</span><strong>Unity 6 and C#</strong></li>
+        <li><span>Based in</span><strong>Riyadh</strong></li>
+      </ul>
+    </div>
+    <p class="sr">The radar is decorative. Each marker on it stands for a game listed in the Games section.</p>
+  </section>
+
+  <section class="block" id="games" aria-labelledby="games-h">
+    <div class="head">
+      <div><h2 id="games-h">Games</h2><p>Published and in development under MacSoft Development Studio.</p></div>
+      <div class="filters" id="filters" role="group" aria-label="Filter games"></div>
+    </div>
+    <div class="inner"><div class="grid" id="grid"></div></div>
+  </section>
+
+  <section class="block alt" id="experience" aria-labelledby="exp-h">
+    <div class="split">
+      <aside>
+        <h2 id="exp-h">Experience</h2>
+        <p>Twelve years across software, game development, real-time 3D, simulation and VR/MR, including about five years leading small teams of Unity developers and 3D artists.</p>
+        <div class="edu"><strong>Bachelor's in Computer Science</strong>Pakistan</div>
+      </aside>
+      <ol class="tl">
+        <li style="--c:var(--echo-3)">
+          <h3 class="role">Senior Software Engineer<span class="now">Current</span></h3>
+          <p class="org">AVC Defense <span>Riyadh, Saudi Arabia</span></p>
+          <p class="sum">Simulation and training software for Rheinmetall Arabia Simulation and Training (RAST). The main project is a Cougar helicopter simulator.</p>
+          <ul>
+            <li>Simulator logic, pilot interactions and 3D visuals in Unity</li>
+            <li>Cockpit GUI and multifunction display (MFD) interfaces, including a weather radar in the style of ARINC 708</li>
+            <li>Hardware integration and Unity networking over UDP, HTTP and JSON</li>
+          </ul>
+        </li>
+        <li style="--c:var(--echo-2)">
+          <h3 class="role">Game developer and publisher<span class="now">Current</span></h3>
+          <p class="org">MacSoft Development Studio</p>
+          <p class="sum">Designing, building and shipping Android games in Unity 6, with iOS planned next.</p>
+          <ul>
+            <li>Hunt for the Pride and Death Arena: Rise of the Warlord are live on Google Play</li>
+            <li>Touch controls, English and Arabic support and small download sizes for everyday phones</li>
+            <li>Reusable gameplay systems shared across projects, built with an AI-assisted workflow using Claude Code</li>
+          </ul>
+        </li>
+        <li style="--c:var(--echo-5)">
+          <h3 class="role">VR and MR developer, team lead</h3>
+          <p class="org">FI Consultancy <span>VR and MR company, United Kingdom</span></p>
+          <p class="sum">Built VR applications, led development teams and handled product management.</p>
+          <ul>
+            <li>A VR meditation experience and two Oculus Store VR projects</li>
+            <li>Nexus Arcade, an in-house Meta Quest 3 VR and MR arcade with four games</li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="block" id="skills" aria-labelledby="skills-h">
+    <div class="head"><div><h2 id="skills-h">Skills</h2><p>What I use to take a project from prototype to a release.</p></div></div>
+    <div class="skills">
+      <section style="--c:var(--echo-1)"><h3>Real-time 3D and gameplay</h3><ul><li>Unity 6 and C#</li><li>Gameplay programming and physics</li><li>AI for soldiers, tactical units and wildlife</li><li>UI, profiling and optimization</li><li>3D modeling and animation</li></ul></section>
+      <section style="--c:var(--echo-2)"><h3>Simulation and hardware</h3><ul><li>Military, aircraft and weapons simulators</li><li>MFD and radar displays</li><li>ESP32 over Wi-Fi, Kinect v2, IMU motion tracking</li><li>UDP, HTTP and JSON networking</li></ul></section>
+      <section style="--c:var(--echo-3)"><h3>XR</h3><ul><li>Meta Quest 2 and 3, hand tracking</li><li>Mixed reality</li><li>Oculus Rift S research</li><li>AR and VR architectural visualization</li></ul></section>
+      <section style="--c:var(--echo-5)"><h3>Shipping and leading</h3><ul><li>Android, Windows and WebGL builds</li><li>Google Play releases</li><li>QA and release readiness</li><li>Leading Unity developers and 3D artists</li></ul></section>
+    </div>
+  </section>
+
+  <section class="block alt" id="contact" aria-labelledby="contact-h">
+    <div class="contact">
+      <h2 id="contact-h">Let's build something</h2>
+      <p>Open to simulation, game and XR projects in Saudi Arabia and internationally.</p>
+      <div class="links">
+        <a href="mailto:invincibledevelopers2015@gmail.com">invincibledevelopers2015@gmail.com</a>
+        <a href="https://github.com/neofaran" rel="noopener">github.com/neofaran</a>
+      </div>
+    </div>
+  </section>
 </main>
-<footer><div class="wrap"><span>© 2026 MacSoft Development Studio</span><span><a href="deatharena/privacy.html">Death Arena privacy policy</a> · <a href="hunt/privacy.html">Hunt for the Pride privacy policy</a></span></div></footer>
-</body></html>
+
+<footer>
+  <span>© 2026 MacSoft Development Studio</span>
+  <nav id="privacy" aria-label="Privacy policies"></nav>
+</footer>
+
+<script src="games.js"></script>
+<script src="assets/site.js"></script>
+<script src="assets/scope.js"></script>
+</body>
+</html>
