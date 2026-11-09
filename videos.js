@@ -57,6 +57,14 @@ window.VIDEOS = [
     description: "One Of The Hardest Car Drifting Game you have ever played.Hill Environment with difficult turns and slopes.",
     youtube: "https://www.youtube.com/watch?v=Dwms3HrkSAo",
     duration: "1:28"
+  },
+  {
+    title: "Tundra 4X4 OffRoad Extreme",
+    project: "Tundra 4X4 OffRoad Extreme",
+    category: "Games",
+    description: "Tundra 4X4 OffRoad Extreme : Wrangler Jeep Style",
+    youtube: "https://www.youtube.com/watch?v=Ua1LEkljLg4",
+    duration: "4:09"
   }
   // ===== PASTE YOUR VIDEOS ABOVE THIS LINE =====
 
