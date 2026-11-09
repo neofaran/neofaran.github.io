@@ -49,8 +49,7 @@ window.VIDEOS = [
     description: "RONIN ASH: BLADE OF THE FALLEN is a fast, brutal samurai action game. Cut down rival swordsmen, outlast endless waves and hunt warlords, one clean slash at a time.",
     youtube: "https://www.youtube.com/watch?v=e9mRT6tvLO0",
     duration: "0:12"
-  }
-  ,
+  },
   {
     title: "Extreme Drifting King",
     project: "Extreme Drifting King",
