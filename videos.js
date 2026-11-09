@@ -33,6 +33,22 @@ window.VIDEOS = [
     description: "Stalking prey, finding water and fighting a rival den.",
     youtube: "https://www.youtube.com/watch?v=ccp6J8-rek0",
     duration: "1:20"
+  },
+   {
+    title: "DeathArena Rise of the Warlord",
+    project: "DeathArena",
+    category: "Games",
+    description: "DEATH ARENA: RISE OF THE WARLORD is a top-down vehicular combat game. Drive armed cars, destroy rival machines and survive the arena.",
+    youtube: "https://www.youtube.com/watch?v=iq_9NFIoDvA",
+    duration: "0:16"
+  },
+  {
+    title: "Ash Blade: Samurai Warrior",
+    project: "Ash Blade: Samurai Warrior",
+    category: "Games",
+    description: "RONIN ASH: BLADE OF THE FALLEN is a fast, brutal samurai action game. Cut down rival swordsmen, outlast endless waves and hunt warlords, one clean slash at a time.",
+    youtube: "https://www.youtube.com/watch?v=e9mRT6tvLO0",
+    duration: "0:12"
   }
   // ===== PASTE YOUR VIDEOS ABOVE THIS LINE =====
 
