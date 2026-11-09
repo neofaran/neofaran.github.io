@@ -12,7 +12,7 @@ h2{font-size:26px;margin:48px 0 18px}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s}
 .card:hover{transform:translateY(-3px);border-color:var(--o)}
-.card .art{height:170px;background-size:cover;background-position:center;display:flex;align-items:flex-end;padding:14px}
+.card .art{aspect-ratio:1024/500;background-size:cover;background-position:center}
 .card .body{padding:18px 20px 22px;display:flex;flex-direction:column;gap:10px;flex:1}.card h3{margin:0;font-size:21px}.card p{margin:0;color:var(--dim);font-size:15px}
 .tag{display:inline-block;font-size:12px;font-weight:700;letter-spacing:1px;padding:3px 10px;border-radius:99px;background:#2a1608;color:var(--o2);border:1px solid #4a2a10;align-self:flex-start}
 .btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:auto;padding-top:8px}
