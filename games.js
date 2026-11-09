@@ -36,3 +36,23 @@ window.GAMES = [
     privacy: "deatharena/privacy.html"
   }
 ];
+
+/*
+  VR AND MIXED REALITY WORK (shipped earlier, shown in its own section). Add or remove blocks the same way.
+*/
+window.PROJECTS = [
+  {
+    title: "Violet Flame Experience",
+    meta: "VR meditation app, Meta Quest 2, FI Consultancy, 2023 to 2024",
+    description: "A meditation app for Quest, built in Unity with web API integration and optimized for VR and mobile. Launched on the Oculus Store.",
+    points: ["Unity 3D, Virtual Reality", "Web API integration", "Oculus Store release"],
+    color: "var(--echo-5)"
+  },
+  {
+    title: "Nexus Arcade",
+    meta: "Mixed reality gaming platform, Meta Quest, FI Consultancy, 2023 to 2024",
+    description: "A mixed reality arcade with four games that connects physical activity with digital play. Released on Meta App Lab.",
+    points: ["Four immersive games, multiplayer features", "Gameplay mechanics and visuals, performance tuning for Quest", "Meta App Lab release"],
+    color: "var(--echo-1)"
+  }
+];
