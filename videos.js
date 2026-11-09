@@ -26,13 +26,14 @@
 window.VIDEOS = [
 
   // ===== PASTE YOUR VIDEOS BELOW THIS LINE =====
- title: "Hunt for the Pride: hunting and fighting",
-     project: "Hunt for the Pride",
-     category: "Games",
-     description: "Stalking prey, finding water and fighting a rival den.",
-     youtube: "https://www.youtube.com/watch?v=ccp6J8-rek0",
-     duration: "1:20"
-
+ {
+    title: "Hunt for the Pride: hunting and fighting",
+    project: "Hunt for the Pride",
+    category: "Games",
+    description: "Stalking prey, finding water and fighting a rival den.",
+    youtube: "https://www.youtube.com/watch?v=ccp6J8-rek0",
+    duration: "1:20"
+  }
   // ===== PASTE YOUR VIDEOS ABOVE THIS LINE =====
 
 ];
