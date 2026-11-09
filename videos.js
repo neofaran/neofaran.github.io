@@ -65,6 +65,22 @@ window.VIDEOS = [
     description: "Tundra 4X4 OffRoad Extreme : Wrangler Jeep Style",
     youtube: "https://www.youtube.com/watch?v=Ua1LEkljLg4",
     duration: "4:09"
+  },
+  {
+    title: "Nexus Arcade",
+    project: "Nexus Arcade",
+    category: "Games",
+    description: "With four exciting games, Nexus Arcade seamlessly blends physical activity with digital engagement",
+    youtube: "https://www.youtube.com/watch?v=ZyNo-WgTdMM",
+    duration: "1:59"
+  },
+  {
+    title: "Violet Flame experience",
+    project: "Violet Flame experience",
+    category: "Games",
+    description: "🌟 Excited to share the completion of Violet Flame Experience! This transformative meditational platform is designed to guide users on a journey of tranquility, self-discovery, and inner harmony. 💜",
+    youtube: "https://www.youtube.com/watch?v=n6FnZ4lOlYw",
+    duration: "8:59"
   }
   // ===== PASTE YOUR VIDEOS ABOVE THIS LINE =====
 
