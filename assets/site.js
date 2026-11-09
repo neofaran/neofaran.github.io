@@ -29,6 +29,9 @@
   render('all');
   document.getElementById('privacy').innerHTML=games.filter(function(g){return g.privacy}).map(function(g){return '<a href="'+esc(g.privacy)+'">'+esc(g.title)+' privacy policy</a>'}).join('');
 
+  var pj=document.getElementById('projects');
+  if(pj)pj.innerHTML=(window.PROJECTS||[]).map(function(p){return '<article style="--c:'+esc(p.color||'var(--echo-1)')+'"><h3>'+esc(p.title)+'</h3><div class="meta">'+esc(p.meta)+'</div><p>'+esc(p.description)+'</p><ul>'+(p.points||[]).map(function(x){return '<li>'+esc(x)+'</li>'}).join('')+'</ul></article>'}).join('');
+
   var bar=document.getElementById('bar');
   function onScroll(){bar.classList.toggle('solid',window.scrollY>40)}
   onScroll();addEventListener('scroll',onScroll,{passive:true});

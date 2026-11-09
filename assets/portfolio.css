@@ -146,3 +146,20 @@ footer a{text-decoration:none}footer a:hover{color:var(--text)}
   .hero h1 b{transform:none;animation:none!important}
   .game:hover .shot::after{animation:none}.now::before{animation:none}
 }
+
+/* vr projects */
+.proj{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:32px}
+.proj article{border-top:3px solid var(--c);padding-top:16px}
+.proj h3{margin:0;font:800 clamp(30px,3.4vw,42px)/1 var(--display);text-transform:uppercase}
+.proj .meta{margin:8px 0 12px}
+.proj p{margin:0 0 12px;color:#c4cde0;max-width:560px}
+.proj ul{margin:0;padding:0;list-style:none}
+.proj li{padding:5px 0 5px 20px;position:relative;color:#c4cde0;font-size:16px;border-top:1px solid var(--line)}
+.proj li::after{content:"";position:absolute;left:0;top:17px;width:8px;height:1px;background:var(--c)}
+.when{margin:6px 0 0;font-size:14px;color:var(--dim)}
+.when .now{margin:0 12px 0 0}
+.earlier-h{margin:64px 0 8px;font:800 30px/1 var(--display);text-transform:uppercase;padding-left:34px}
+.earlier{list-style:none;margin:0;padding:0 0 0 34px}
+.earlier li{display:grid;grid-template-columns:1.1fr 1fr 1.2fr;gap:4px 16px;padding:12px 0;border-top:1px solid var(--line);font-size:16px}
+.earlier span{color:#c4cde0}.earlier b{font-weight:600}.earlier time{color:var(--dim);font-size:14px}
+@media (max-width:700px){.earlier li{grid-template-columns:1fr}.earlier-h,.earlier{padding-left:34px}}
