@@ -50,6 +50,15 @@ window.VIDEOS = [
     youtube: "https://www.youtube.com/watch?v=e9mRT6tvLO0",
     duration: "0:12"
   }
+  ,
+  {
+    title: "Extreme Drifting King",
+    project: "Extreme Drifting King",
+    category: "Games",
+    description: "One Of The Hardest Car Drifting Game you have ever played.Hill Environment with difficult turns and slopes.",
+    youtube: "https://www.youtube.com/watch?v=Dwms3HrkSAo",
+    duration: "1:28"
+  }
   // ===== PASTE YOUR VIDEOS ABOVE THIS LINE =====
 
 ];
