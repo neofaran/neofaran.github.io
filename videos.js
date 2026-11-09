@@ -1,4 +1,4 @@
-/*
+
   VIDEOS: gameplay and project videos shown in the "Videos" section of the portfolio.
   To add one: copy a block below, paste it at the end of the list (add a comma between blocks) and edit it.
   Nothing else needs to change. Newest at the bottom or top, the order here is the order on the page.
@@ -38,6 +38,6 @@
     file: "videos/death-arena.mp4",
     poster: "videos/death-arena.jpg"
   }
-*/
+
 window.VIDEOS = [
 ];
