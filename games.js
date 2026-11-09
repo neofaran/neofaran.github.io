@@ -34,6 +34,19 @@ window.GAMES = [
     page: "deatharena/",
     play: "https://play.google.com/store/apps/details?id=com.macsoft.DeathArena",
     privacy: "deatharena/privacy.html"
+  },
+  {
+    id: "ronin-ash",
+    title: "Ronin Ash: Blade of the Fallen",
+    tagline: "Draw your blade. Become the Ronin.",
+    description: "A fast, brutal samurai action game: chain katana combos, land critical finishing cuts, survive endless waves and hunt warlords. English and Arabic.",
+    genre: "Action",
+    platform: "Android",
+    status: "dev",
+    image: "ronin/feature.png",
+    page: "ronin/",
+    play: "",
+    privacy: "ronin/privacy.html"
   }
 ];
 
