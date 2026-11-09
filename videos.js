@@ -19,7 +19,7 @@
 //     project: "Hunt for the Pride",
 //     category: "Games",
 //     description: "Stalking prey, finding water and fighting a rival den.",
-//     youtube: "https://www.youtube.com/watch?v=PASTE_YOUR_VIDEO_ID",
+//     youtube: "https://www.youtube.com/watch?v=ccp6J8-rek0",
 //     duration: "1:20"
 //   },
 
