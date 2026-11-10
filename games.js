@@ -47,6 +47,19 @@ window.GAMES = [
     page: "ronin/",
     play: "",
     privacy: "ronin/privacy.html"
+  },
+  {
+    id: "galactic-dominion",
+    title: "Galactic Dominion",
+    tagline: "Build a starbase and conquer the sector.",
+    description: "A 3D sci-fi colony RTS: grow your starbase, research technology and command fleets through a campaign, endless Survival waves and Free For All battles against up to five AI rivals.",
+    genre: "Strategy",
+    platform: "Android",
+    status: "dev",
+    image: "galactic-dominion/feature.png",
+    page: "galactic-dominion/",
+    play: "",
+    privacy: "galactic-dominion/privacy.html"
   }
 ];
 
