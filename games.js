@@ -42,10 +42,10 @@ window.GAMES = [
     description: "A fast, brutal samurai action game: chain katana combos, land critical finishing cuts, survive endless waves and hunt warlords. English and Arabic.",
     genre: "Action",
     platform: "Android",
-    status: "dev",
+    status: "live",
     image: "ronin/feature.png",
     page: "ronin/",
-    play: "",
+    play: "https://play.google.com/store/apps/details?id=com.macsoft.roninash",
     privacy: "ronin/privacy.html"
   },
   {
@@ -55,10 +55,10 @@ window.GAMES = [
     description: "A 3D sci-fi colony RTS: grow your starbase, research technology and command fleets through a campaign, endless Survival waves and Free For All battles against up to five AI rivals.",
     genre: "Strategy",
     platform: "Android",
-    status: "dev",
+    status: "live",
     image: "galactic-dominion/feature.png",
     page: "galactic-dominion/",
-    play: "",
+    play: "https://play.google.com/store/apps/details?id=com.macsoft.galacticdominion",
     privacy: "galactic-dominion/privacy.html"
   }
 ];
